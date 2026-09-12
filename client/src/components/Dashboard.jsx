@@ -70,7 +70,7 @@ export default function Dashboard({
             <span>MERN Stack Academic Assessment Engine</span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
+          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-black">
             ATP Score Management & Assessment Dashboard
           </h1>
 
