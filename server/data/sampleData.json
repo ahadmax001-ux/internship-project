@@ -1,0 +1,126 @@
+[
+  {
+    "_id": "sample-atp-001",
+    "studentName": "Aarav Sharma",
+    "rollNumber": "CS2025-042",
+    "department": "Computer Science & Engineering",
+    "academicYear": "2025-2026",
+    "projectTitle": "Smart IoT Attendance & Environmental Tracker",
+    "parameters": {
+      "attendance": 94,
+      "theoryScore1": 88,
+      "theoryScore2": 92,
+      "practicalScore": 95,
+      "projectScore": 96,
+      "continuousAssessment": 90
+    },
+    "calculatedScore": 93.1,
+    "percentage": 93.1,
+    "grade": "A+",
+    "status": "Outstanding",
+    "passed": true,
+    "remarks": "Exceptional practical lab performance and well-documented project defense.",
+    "createdAt": "2026-03-01T10:15:00.000Z",
+    "breakdown": [
+      { "key": "attendance", "parameter": "Attendance", "enteredValue": 94, "unit": "%", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 9.4 },
+      { "key": "theoryScore1", "parameter": "Theory Exam 1 (Mid-Term)", "enteredValue": 88, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 15.4 },
+      { "key": "theoryScore2", "parameter": "Theory Exam 2 (End-Term/Internal)", "enteredValue": 92, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 16.1 },
+      { "key": "practicalScore", "parameter": "Practical / Lab Performance", "enteredValue": 95, "unit": "marks", "weightPercentage": 25, "maxContribution": 25, "earnedContribution": 23.75 },
+      { "key": "projectScore", "parameter": "Term Project / Capstone", "enteredValue": 96, "unit": "marks", "weightPercentage": 20, "maxContribution": 20, "earnedContribution": 19.2 },
+      { "key": "continuousAssessment", "parameter": "Continuous Assessment & Quizzes", "enteredValue": 90, "unit": "marks", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 9.0 }
+    ]
+  },
+  {
+    "_id": "sample-atp-002",
+    "studentName": "Priya Patel",
+    "rollNumber": "CS2025-089",
+    "department": "Computer Science & Engineering",
+    "academicYear": "2025-2026",
+    "projectTitle": "Hospital Emergency Triage Queue Optimization",
+    "parameters": {
+      "attendance": 85,
+      "theoryScore1": 78,
+      "theoryScore2": 82,
+      "practicalScore": 86,
+      "projectScore": 84,
+      "continuousAssessment": 80
+    },
+    "calculatedScore": 82.8,
+    "percentage": 82.8,
+    "grade": "A",
+    "status": "Excellent",
+    "passed": true,
+    "remarks": "Solid conceptual understanding and good group contribution.",
+    "createdAt": "2026-03-02T14:30:00.000Z",
+    "breakdown": [
+      { "key": "attendance", "parameter": "Attendance", "enteredValue": 85, "unit": "%", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 8.5 },
+      { "key": "theoryScore1", "parameter": "Theory Exam 1 (Mid-Term)", "enteredValue": 78, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 13.65 },
+      { "key": "theoryScore2", "parameter": "Theory Exam 2 (End-Term/Internal)", "enteredValue": 82, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 14.35 },
+      { "key": "practicalScore", "parameter": "Practical / Lab Performance", "enteredValue": 86, "unit": "marks", "weightPercentage": 25, "maxContribution": 25, "earnedContribution": 21.5 },
+      { "key": "projectScore", "parameter": "Term Project / Capstone", "enteredValue": 84, "unit": "marks", "weightPercentage": 20, "maxContribution": 20, "earnedContribution": 16.8 },
+      { "key": "continuousAssessment", "parameter": "Continuous Assessment & Quizzes", "enteredValue": 80, "unit": "marks", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 8.0 }
+    ]
+  },
+  {
+    "_id": "sample-atp-003",
+    "studentName": "Rohan Gupta",
+    "rollNumber": "IT2025-014",
+    "department": "Information Technology",
+    "academicYear": "2025-2026",
+    "projectTitle": "Campus Ride Sharing & Route Optimization",
+    "parameters": {
+      "attendance": 72,
+      "theoryScore1": 65,
+      "theoryScore2": 68,
+      "practicalScore": 74,
+      "projectScore": 70,
+      "continuousAssessment": 68
+    },
+    "calculatedScore": 69.75,
+    "percentage": 69.75,
+    "grade": "C",
+    "status": "Good",
+    "passed": true,
+    "remarks": "Fair performance. Needs improvement in mid-term theoretical proofs.",
+    "createdAt": "2026-03-03T11:00:00.000Z",
+    "breakdown": [
+      { "key": "attendance", "parameter": "Attendance", "enteredValue": 72, "unit": "%", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 7.2 },
+      { "key": "theoryScore1", "parameter": "Theory Exam 1 (Mid-Term)", "enteredValue": 65, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 11.38 },
+      { "key": "theoryScore2", "parameter": "Theory Exam 2 (End-Term/Internal)", "enteredValue": 68, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 11.9 },
+      { "key": "practicalScore", "parameter": "Practical / Lab Performance", "enteredValue": 74, "unit": "marks", "weightPercentage": 25, "maxContribution": 25, "earnedContribution": 18.5 },
+      { "key": "projectScore", "parameter": "Term Project / Capstone", "enteredValue": 70, "unit": "marks", "weightPercentage": 20, "maxContribution": 20, "earnedContribution": 14.0 },
+      { "key": "continuousAssessment", "parameter": "Continuous Assessment & Quizzes", "enteredValue": 68, "unit": "marks", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 6.8 }
+    ]
+  },
+  {
+    "_id": "sample-atp-004",
+    "studentName": "Sneha Mukherjee",
+    "rollNumber": "EC2025-061",
+    "department": "Electronics & Communication",
+    "academicYear": "2025-2026",
+    "projectTitle": "Solar Inverter Efficiency Monitoring System",
+    "parameters": {
+      "attendance": 60,
+      "theoryScore1": 46,
+      "theoryScore2": 52,
+      "practicalScore": 58,
+      "projectScore": 54,
+      "continuousAssessment": 48
+    },
+    "calculatedScore": 53.25,
+    "percentage": 53.25,
+    "grade": "D",
+    "status": "Satisfactory (Pass)",
+    "passed": true,
+    "remarks": "Cleared minimum passing bar. Advised to attend remedial sessions for Theory 1.",
+    "createdAt": "2026-03-04T09:45:00.000Z",
+    "breakdown": [
+      { "key": "attendance", "parameter": "Attendance", "enteredValue": 60, "unit": "%", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 6.0 },
+      { "key": "theoryScore1", "parameter": "Theory Exam 1 (Mid-Term)", "enteredValue": 46, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 8.05 },
+      { "key": "theoryScore2", "parameter": "Theory Exam 2 (End-Term/Internal)", "enteredValue": 52, "unit": "marks", "weightPercentage": 18, "maxContribution": 17.5, "earnedContribution": 9.1 },
+      { "key": "practicalScore", "parameter": "Practical / Lab Performance", "enteredValue": 58, "unit": "marks", "weightPercentage": 25, "maxContribution": 25, "earnedContribution": 14.5 },
+      { "key": "projectScore", "parameter": "Term Project / Capstone", "enteredValue": 54, "unit": "marks", "weightPercentage": 20, "maxContribution": 20, "earnedContribution": 10.8 },
+      { "key": "continuousAssessment", "parameter": "Continuous Assessment & Quizzes", "enteredValue": 48, "unit": "marks", "weightPercentage": 10, "maxContribution": 10, "earnedContribution": 4.8 }
+    ]
+  }
+]

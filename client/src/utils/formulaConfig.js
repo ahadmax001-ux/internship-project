@@ -1,0 +1,113 @@
+/**
+ * Frontend Parameter Definitions and Formula Helpers
+ * Keeps form inputs and display labels synchronized with the backend.
+ */
+
+export const PARAMETER_CONFIG = [
+  {
+    key: 'attendance',
+    label: 'Attendance',
+    unit: '%',
+    weight: '10%',
+    min: 0,
+    max: 100,
+    step: 1,
+    placeholder: 'e.g., 85',
+    tooltip: 'Class & lab attendance percentage (Min requirement usually 75%)',
+    icon: 'CalendarCheck',
+  },
+  {
+    key: 'theoryScore1',
+    label: 'Theory Exam 1 (Mid-Term)',
+    unit: 'marks',
+    weight: '17.5%',
+    min: 0,
+    max: 100,
+    step: 0.5,
+    placeholder: 'e.g., 78',
+    tooltip: 'Score achieved in mid-semester written examination (out of 100)',
+    icon: 'FileText',
+  },
+  {
+    key: 'theoryScore2',
+    label: 'Theory Exam 2 (End-Term/Internal)',
+    unit: 'marks',
+    weight: '17.5%',
+    min: 0,
+    max: 100,
+    step: 0.5,
+    placeholder: 'e.g., 82',
+    tooltip: 'Score achieved in end-semester internal assessment (out of 100)',
+    icon: 'BookOpen',
+  },
+  {
+    key: 'practicalScore',
+    label: 'Practical / Lab Performance',
+    unit: 'marks',
+    weight: '25%',
+    min: 0,
+    max: 100,
+    step: 0.5,
+    placeholder: 'e.g., 90',
+    tooltip: 'Laboratory experiments execution, viva voce, and journal grading',
+    icon: 'FlaskConical',
+  },
+  {
+    key: 'projectScore',
+    label: 'Term Project / Capstone',
+    unit: 'marks',
+    weight: '20%',
+    min: 0,
+    max: 100,
+    step: 0.5,
+    placeholder: 'e.g., 88',
+    tooltip: 'Evaluation of team project code, report documentation, and presentation',
+    icon: 'FolderGit2',
+  },
+  {
+    key: 'continuousAssessment',
+    label: 'Continuous Assessment & Quizzes',
+    unit: 'marks',
+    weight: '10%',
+    min: 0,
+    max: 100,
+    step: 0.5,
+    placeholder: 'e.g., 85',
+    tooltip: 'Class quizzes, weekly homework assignments, and active participation',
+    icon: 'Award',
+  },
+];
+
+export const DEFAULT_FORM_VALUES = {
+  studentName: '',
+  rollNumber: '',
+  department: 'Computer Science & Engineering',
+  academicYear: '2025-2026',
+  projectTitle: '',
+  remarks: '',
+  parameters: {
+    attendance: '',
+    theoryScore1: '',
+    theoryScore2: '',
+    practicalScore: '',
+    projectScore: '',
+    continuousAssessment: '',
+  },
+};
+
+export const DEMO_PRESET_VALUES = {
+  studentName: 'Rohan Sharma',
+  rollNumber: 'CS2025-099',
+  department: 'Computer Science & Engineering',
+  academicYear: '2025-2026',
+  projectTitle: 'AI-Driven Healthcare Assessment Portal',
+  remarks: 'Consistent high engagement in lab practicals.',
+  parameters: {
+    attendance: '88',
+    theoryScore1: '82',
+    theoryScore2: '86',
+    practicalScore: '92',
+    projectScore: '90',
+    continuousAssessment: '85',
+  },
+};
